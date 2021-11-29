@@ -9,6 +9,6 @@
 
 
 <!--配置业务逻辑层，给spring扫描识别该包下的所有类，使用注解方式-->
-	<context:component-scan base-package="com.bjpowernode.service"></context:component-scan>
+	<context:component-scan base-package="com.zhangwenjie.service"></context:component-scan>
 
 </beans>

@@ -22,11 +22,11 @@
         <!--配置mybatis的核心配置文件-->
         <property name="configLocation" value="classpath:SqlMapConfig.xml"></property>
         <!--配置pojo-->
-        <property name="typeAliasesPackage" value="com.bjpowernode.pojo"></property>
+        <property name="typeAliasesPackage" value="com.zhangwenjie.pojo"></property>
     </bean>
     <!--配置mapper所在的包-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.bjpowernode.mapper"></property>
+        <property name="basePackage" value="com.zhangwenjie.mapper"></property>
     </bean>
 
 
